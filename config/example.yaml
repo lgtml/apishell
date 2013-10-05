@@ -1,0 +1,12 @@
+url: 'https://api.myhost.com'
+
+auth:
+  type: form
+  path: /auth
+  user_key: username
+  pass_key: password
+
+commands:
+  - name: user_list
+    path: /users
+
