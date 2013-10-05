@@ -5,6 +5,8 @@ auth:
   path: /auth
   user_key: username
   pass_key: password
+  token: header
+  header_key: "X-API-AUTH-TOKEN"
 
 commands:
   - name: user_list
