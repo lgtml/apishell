@@ -1,0 +1,15 @@
+url: 'https://api.myhost.com'
+
+auth:
+  type: oauth
+  path: /oauth/access_token
+  client_id: username
+  client_secret: password
+  token: body
+  body_key: access_token
+  query_string: true
+
+commands:
+  - name: user_list
+    path: /users
+
